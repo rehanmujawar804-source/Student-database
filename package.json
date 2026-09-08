@@ -1,0 +1,16 @@
+{
+  "name": "secure-student-api",
+  "version": "1.0.0",
+  "description": "A backend learning project: register, login with JWT, and protected student CRUD.",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
